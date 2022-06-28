@@ -4,6 +4,8 @@
 ### Overview
 Analysis of 2M+ Yelp users and 5M+ restaurant reviews to develop a data driven strategy to pick a delicious meal, applying VADER sentiment analysis and visualized with matplotlib, seaborn
 
+VADER sentiment analysis done with cleaned review text and then also just with sentence tokenization. Data processing adapted to work for distributed computing with PySpark.
+
 ### Language
 Python
 
@@ -15,7 +17,7 @@ json, numpy, pandas, matplotlib, seaborn, nltk, scipy
 - selected subset of data (restaurants only)
 - parsed dates to generate new features
 - filled or dropped zero and nan values
-- word tokenized, cleaned, POS-tagged, and lemmatized review text
+- sentence or word tokenized, cleaned, POS-tagged, and lemmatized review text
 
 ### Sentiment Analysis
 - VADER sentiment analysis	
@@ -34,5 +36,7 @@ json, numpy, pandas, matplotlib, seaborn, nltk, scipy
 
 ### Resources
 [Yelp Open Dataset](https://www.yelp.com/dataset)
+
+[Databricks Community Edition](https://community.cloud.databricks.com/)
 
 [Kaggle](https://www.kaggle.com/)

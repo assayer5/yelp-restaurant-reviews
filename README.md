@@ -10,7 +10,7 @@ VADER sentiment analysis done with cleaned review text and then also just with s
 Python
 
 ### Packages Used
-json, numpy, pandas, matplotlib, seaborn, nltk, scipy
+json, numpy, pandas, matplotlib, seaborn, nltk, scipy, pyspark
 
 ### Data Cleaning and Preparation
 - converted json files to csv files
@@ -37,6 +37,10 @@ json, numpy, pandas, matplotlib, seaborn, nltk, scipy
 ### Resources
 [Yelp Open Dataset](https://www.yelp.com/dataset)
 
+[VADER sentiment analysis](https://github.com/cjhutto/vaderSentiment)
+
 [Databricks Community Edition](https://community.cloud.databricks.com/)
+
+[PySpark 3.0.0 documentation](https://spark.apache.org/docs/3.0.0/api/python/pyspark.sql.html)
 
 [Kaggle](https://www.kaggle.com/)
